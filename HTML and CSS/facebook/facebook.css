@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(240, 242, 245);
+}
+body h1{
+    text-align: center;
+    color: #166fe5;
+    
+}
+
+.regform{
+    width: 400px;
+    background-color: rgba(1000, 1000, 1000, 0.586);
+    padding: 24px 0 16px 0;
+    margin: 1px auto;   
+    border-radius: 12px;
+}
+
+.regform h3{   
+    text-align: center;
+}
+
+
+.input input{
+    width: 320px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 14px 15px;
+    margin: 8px 20px;
+}
+
+.btn button{
+    width: 352px;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 14px 15px;
+    margin: 8px 20px;
+    background-color: #166fe5;
+    color: aliceblue;
+}
+
+.ref a{
+    margin: 25px;
+    text-decoration: none;
+
+
+}
+a:hover{
+    /* text-decoration: underline; */
+}
+
+

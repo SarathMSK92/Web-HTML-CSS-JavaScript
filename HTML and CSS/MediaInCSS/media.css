@@ -1,0 +1,28 @@
+.para1{
+    background-color: aquamarine;
+}
+
+.para2{
+    background-color: coral;
+}
+
+.para3{
+    background-color: cornsilk;
+}
+
+.para4{
+    background-color: darkolivegreen;
+}
+
+@media (min-width:801px){
+        .container p{
+            width:30%;
+            float:left;
+            padding: 10px;
+        }
+        .para3{
+            background-color: cornflowerblue;
+        }
+
+}
+

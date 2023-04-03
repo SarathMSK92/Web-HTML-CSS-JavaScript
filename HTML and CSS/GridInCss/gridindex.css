@@ -1,0 +1,95 @@
+body{
+    background-color: bisque;
+    
+}
+
+.container{
+    display: grid;
+    margin: 20px;
+    grid-template-columns:  repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+
+.outerbox{
+    
+    display: grid;
+    margin: 20px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 100px 200px;
+    gap: 20px;
+    grid-auto-rows: 200px;
+    align-items: end;
+    /* justify-content: center; */
+    justify-items: stretch;
+
+
+}
+
+.box{
+    font-size: 3rem;
+    background-color: rgb(76, 124, 4);
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.para{
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+}
+
+.box1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+
+    /* grid-column: span 3; */
+    /* justify-self: center; */
+
+}
+
+.layout{
+    display: grid;
+    
+    
+    grid-template-columns: repeat(5, ifr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "h h h h h"
+    "sb1 m m m sb2"
+    "f f f f f";
+}
+
+.header{
+    grid-area: h;
+    
+}
+
+.sidebar1{
+    grid-area: sb1;
+}
+
+.maincontent{
+    grid-area: m;
+}
+
+.sidebar2{
+    grid-area: sb2;
+}
+
+.footer{
+    grid-area: f;
+}
+
+.layout div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: rgb(248, 179, 154);
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}

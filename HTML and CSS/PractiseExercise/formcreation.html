@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <form action="registrationstatus.html" enctype="multipart/form-data">
+        <div>
+            <label for="firstname">First Name:</label>
+            <input type="text" name="firstname" id="firstname">
+        </div>
+        <br>
+        <div>
+            <label for="lastname">Last Name:  </label>
+            <input type="text" name="lastname"  id="lastname">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:  </label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="mobilenumber">Mobile Number:  </label>
+            <input type="number" name="mobilenumber" id="mobilenumber">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:  </label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id=female value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="dateofbirth">Date Of Birth:</label>
+            <input type="date" name="dateofbirth" id="dateofbirth">
+        </div>
+        <br>
+        <div>
+            <label for="address">Address:</label>
+            <textarea name="address" id="address" cols="20" rows="4"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="city">City:</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <br>
+        <div>
+            <label for="areapin">Area PIN</label>
+            <input type="number" name="arepin" id="areaping" minlength="6">
+        </div>
+        <br>
+        <div>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state">
+        </div>
+        <br>
+        <div>
+            <label for="qualification">Qualification: </label>
+            <select name="qualification" id="qualification">
+                <option value="BE">Select</option>
+                <option value="BE">BE</option>
+                <option value="B.COM">B.COM</option>
+                <option value="+2">+2</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="specification">Specification:</label><br>
+            <input type="checkbox" name="specification" id="computerscience">
+            <label for="computerscience">Computer Science</label><br>
+            <input type="checkbox" name="specification" id="informationtechnology">
+            <label for="informationtechnology">Information Technology</label><br>
+            <input type="checkbox" name="specification" id="computerarchitecture">
+            <label for="computerarchitecture">Computer Architecture</label><br>
+            <input type="checkbox" name="specification" id="telecommunication">
+            <label for="telecommunication">Tele Communication</label>
+        </div>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <button>Registered</button>
+        </div>
+
+        <p>&copy;</p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="signupresult.html" method="get" enctype="multipart/form-data">
+    <div>
+        <label for="username">User Name</label>
+        <input type="text" name="username" id="username" maxlength="6" minlength="2" required>
+    </div>
+
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" maxlength="8" minlength="4" required>
+    </div>
+
+    <div>
+        <input type="hidden" nam="hidden" id="hidden" value="123">
+    </div>
+
+    <div>
+        <label for="email">Email-Id</label>
+        <input type="email" name="email" id="email">
+    </div>
+
+    <div>
+        <label for="dateofbirth">Year-of-Birth</label>
+        <input type="date" name="dateofbirth" id="dateofbirth" maxlength="4" min="1900-01-01"  required>
+    </div>
+
+    <div>
+        <label for="abou">About</label>
+        <textarea name="about" id="about" cols="30" rows="4">about me...</textarea>
+    </div>
+
+    <div>
+        <input type="checkbox" name="smsalert" id="smsalert">
+        <label for="smsalert">SMS Alert</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="emailalert" id="emailalert">
+        <label for="emailalert">Email Alert</label>
+    </div>
+
+    <div>
+        <input type="radio" name="genger" id="male" value="male">
+        <label for="male">Male</label>
+    </div>
+
+    <div>
+        <input type="radio" name="genger" id="female" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <div>
+        <select name="state" id="state">
+            <option value="tamilnadu">Tamil Nadu</option>
+            <option value="andhra">Andhra</option>
+            <option value="kerala">Kerala</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="file">Resume</label>
+        <input type="file" name="file" id="file"  >
+    </div>
+
+    <!-- <button type="submit">Signup</button> -->
+
+    <div>
+        <input type="image" src="Images/submit.png" width="70">
+        <button type="reset">Reset</button>
+    </div>
+    
+    </form>
+    
+</body>
+</html>
