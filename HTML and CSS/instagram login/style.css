@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(105, 105, 105, 0.132);
+
+}
+
+.insta_container{
+    text-align: center;
+
+}
+
+.page{
+    width: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+
+.title{
+    padding: 30px 0;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+form{
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+border: ;
+}
+
+form input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+form button{
+
+    padding: 5px;
+    width: 260px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+

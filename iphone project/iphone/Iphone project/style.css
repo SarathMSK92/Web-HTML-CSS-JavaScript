@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+/* Header Part  */
+
+header nav{
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    background-color:rgba(211, 211, 211, 0.432);
+    color: black;    
+    cursor: pointer;
+}
+
+
+header ul{
+    width: 68%;
+    display: flex;
+    margin: auto;
+    padding: 15px 10px;
+}
+
+
+
+header ul li{
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+
+header nav ul li.store_sub_menu .store_menus{
+    position: absolute;
+    top : 10px;
+    background-color: white;
+    display: none;
+}
+
+li.store_sub_menu:hover > .store_menus {
+    display:flex;
+}
+
+header li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 12px;
+    
+}
+
+header li a{
+    text-decoration: none;
+    color: black;
+}
+
+header ul .store_list_collection{
+    display: flex;
+    align-items: center;
+}
+
+header ul li .store_shoplist{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+   
+}
+
+header ul li .store_quick_links_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header ul li .store_quick_links_list li{
+    width: 20px;
+    
+}
+
+
+header ul li .store_shop_special_offer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ================================================================================= */
+
+/* Section 1 : Mobile Container section */
+
+.mobile_container nav{
+    padding-top: 50px;
+    font-size: 10px;
+    background-color:white;
+    cursor: pointer;
+}
+
+.mobile_container ul{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    padding: 10px 120px;
+
+}
+
+.mobile_container li{
+    list-style: none;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile_container li a{
+    text-decoration: none;
+    color: black;
+}
+
+.mobile_container li p{
+    color: brown;
+}
+
+.mobile_container li a:hover{
+    color: blue;
+}
+
+
+/* ================================================================================= */
+
+/* Section 2 : Bank Offer Part */
+
+.bank_offer {
+    height: 15%;
+    font-size: 12px;
+    background-color:white;
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.473);
+}
+
+.bank_offer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bank_offer div p{
+    padding: 1rem;
+
+}
+
+.bank_offer div a{
+    color: rgba(38, 38, 241, 0.795);
+}
+
+
+/* Section 3 : 2 New mobile promotion */
+
+.mobile_specification{
+    padding-top: 1rem;
+    background-color: white;
+    /* cursor: ; */
+}
+
+.mobile_specification .iPhone_14_promo_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+
+}
+
+.mobile_specification .iPhone_14_promo_info .main_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mobile_specification div .iPhone_14_promo_info h4, h1, span, div{
+    margin-top: 20px;
+}
+
+.mobile_specification div .buybutton{
+    background-color: rgba(0, 0, 255, 0.658);
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    color: white;
+    border-style: none;
+    font-size: 15px;
+}
+
+.mobile_specification h4{
+    color: rgb(103, 101, 101);
+    font-weight: 100;
+}
+
+.mobile_specification div a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 255);
+}
+
+.mobile_specification .iphone_14_content{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+section .iPhone_14_promo_info h1{
+    font-size: 40px;
+}
+
+
+
+
+/* ************************************************/
+
+.iPhone_14_pro_promo_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.iPhone_14_pro_promo_info .title_img{
+    padding-top: 2rem;
+}
+
+.iPhone_14_pro_promo_info div h1{
+    font-size: 3rem;
+}
+
+/* ************************************************/
+
+.iphone_se_promo_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.iphone_se_promo_info .leftside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 11rem;
+}
+
+section .iphone_se_promo_info h1{
+    font-size: 50px;
+    color:rgba(0, 0, 255, 0.678) ;
+}
+
+
+/* ********************************************************* */
+
+.guide_image{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    text-align: center;
+    color: white;
+}
+
+.guide_image div img{
+    border-radius: 40px;
+}
+
+.guide_image div p{
+    position: absolute;
+    top: 290px;
+    left: 360px;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.guide_image div span{
+    position: absolute;
+    top: 330px;
+    left: 360px;
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+
+.guide_image div h1{
+    position: absolute;
+    top: 380px;
+    left: 360px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.guide_image div button{
+    position: absolute;
+    top: 480px;
+    left: 360px;
+    font-size: 1.2rem;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+
+/* ************************************* 
+Media Content Introduction*/
+
+/* @media screen and  (max-width: 600px)
+{
+    section{
+        flex:100%;
+        max-width: 100%;
+    }
+}     */
+/* 
+@media (min-width:801px){
+    section{
+        width:100%;
+        float:left;
+        padding: 10px;
+    }
+} */
+
+
+
+
+@media screen and (max-width:1253px) {
+    .main_header_list {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+    }
+    .mobile_collection_list {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+

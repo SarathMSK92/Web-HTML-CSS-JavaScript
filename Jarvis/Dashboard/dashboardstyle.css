@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  background-color: rgba(128, 128, 128, 0.184);
+}
+
+.dash_header_container{
+    background-color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+
+
+.dash_header_container .dash_header_left-side,.dash_header_right-side:hover{
+    cursor: pointer;
+}
+
+.dash_header_container .dash_header_left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.dash_header_container .dash_header_left-side a{
+    padding-left: 30px;
+    background-color: white;
+   
+}
+
+
+
+.dash_header_container .dash_header_right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+
+}
+
+.dashboard_container div, p, span, button, i, a{
+    background-color: white;
+}
+
+.dash_header_container .dash_header_right-side button{
+   margin-right:20px ;
+   border-style: none;
+}
+
+.dash_header_container .dash_header_right-side i{
+    margin-left: 10px;
+}
+
+.main_container{
+    display: flex;
+}
+
+.leftside_container{
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    padding: 10px;   
+}
+
+.leftside_container ul li{
+    background-color: white;
+    padding: 20px 20px 10px 20px ;
+    font-size: 1rem;
+}
+
+.rightside_container{
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+    background-color: white ;
+}
+
+
+.dashboard_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard_content_container div{
+    /* display: none; */
+}

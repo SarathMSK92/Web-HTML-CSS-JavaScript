@@ -1,0 +1,67 @@
+{
+	"folders": [
+		{
+			"path": "../Links/Restaurent"
+		},
+		{
+			"path": "../HTML"
+		},
+		{
+			"path": "../PractiseExercise"
+		},
+		{
+			"path": "../CSS"
+		},
+		{
+			"path": "../CreateRegisterForm"
+		},
+		{
+			"path": "../facebook"
+		},
+		{
+			"path": "../PositionInCSS"
+		},
+		{
+			"path": "../FloatInCSS"
+		},
+		{
+			"path": "../MediaInCSS"
+		},
+		{
+			"path": "../Gradient"
+		},
+		{
+			"path": "../em, rem, vw, vh"
+		},
+		{
+			"path": "../FlexBoxInCSS"
+		},
+		{
+			"path": "../GridInCss"
+		},
+		{
+			"path": "../TransitionAndAnimation"
+		},
+		{
+			"path": "../FullyResponsiveWebsite"
+		},
+		{
+			"path": "../Ui Practise Projects/AromaSignupPage"
+		},
+		{
+			"path": "../ReferenceProject"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Mogan Task 2"
+		},
+		{
+			"path": "../JavaScriptLearning"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Mogan Task"
+	}
+}

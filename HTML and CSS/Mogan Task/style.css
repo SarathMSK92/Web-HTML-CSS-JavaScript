@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: black;
+   
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 400px;
+    background-color: rgba(112, 128, 144, 0.164);    
+
+}
+
+.global_header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 0 auto;
+    
+}
+
+.global_header_container .navlist{
+    display: flex;
+    font-size: 14px;
+    margin:10px 0px;
+}
+
+
+.navlist a{
+    margin: 0px 30px;
+}
+
+.global_header_container .iphoneicon{
+    /* margin-bottom: 5px; */   
+    font-size: 1.5rem;
+}
+
+.global_header_container .search{
+   /* padding: 0px 30px; */
+   
+   font-size: 1.1rem;
+   margin-left:20px ;
+}
+
+.global_header_container .shopping_bag{
+    margin-left:40px ;
+    font-size: 1.2rem;
+}
+
+
+/* Store Submenu handling  */
+
+.store_dropdown{
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+.shop_submenu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 158px;
+    z-index: 1;
+}
+
+.quick_submenu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 158px;
+    z-index: 1;
+}
+
+.special_store_submenu{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 158px;
+    z-index: 1;
+}
+.shop_submenu .quick_submenu .special_store_submenu:hover a{
+    display: block;
+
+}
+.store_dropdown:hover .shop_submenu .quick_submenu .special_store_submenu{
+    display: block;
+}
