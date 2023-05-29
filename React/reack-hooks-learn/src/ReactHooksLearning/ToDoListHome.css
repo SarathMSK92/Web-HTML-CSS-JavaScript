@@ -1,0 +1,11 @@
+*{
+    max-width: 500px;
+    max-height: 500px;
+    box-sizing: border-box;
+}
+
+
+button {
+    padding: 2px;
+    width: 5rem;
+}

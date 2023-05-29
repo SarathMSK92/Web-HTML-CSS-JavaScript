@@ -1,0 +1,10 @@
+.items{
+    margin-top: 3rem;
+}
+
+.itemcat{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

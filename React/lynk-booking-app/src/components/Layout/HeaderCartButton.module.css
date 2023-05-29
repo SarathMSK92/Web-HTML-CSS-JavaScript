@@ -1,0 +1,81 @@
+.button{
+    cursor: pointer;
+    font: inherit;
+    background-color: #25b5ea9c;
+    padding: 0.75rem 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: width 2s, height 2s, background-color 1s, rotate 2s;
+}
+
+.icon{
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.button:hover,
+.button:active {
+    background-color: rgb(147, 96, 170);
+  
+  color: white;
+}
+
+.button:hover .icon,
+.button:active .icon {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.badge{
+    padding: 0.25rem 0.5rem;
+    border-radius: 25px;
+    background-color: rgba(194, 81, 49, 0.849);
+    margin-left: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: #92320c;
+}
+
+.yourcart{
+   font-size: 1.2rem;
+   color: rgb(0, 0, 0);
+}
+
+.button:hover .yourcart,
+.button:active .yourcart {
+  color: white;
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+  }
+  
+@keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }

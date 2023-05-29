@@ -1,0 +1,35 @@
+.branditem{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding-bottom: 1rem;
+
+    width: 100px;
+    align-items: center;
+
+}
+
+.branditem h3{
+    margin: 0 0 0.25rem 0;
+    padding-bottom: 1rem;
+    width: 80px;
+
+}
+
+
+.description {
+    font-style: italic;
+    margin-left: 1rem;
+}
+
+.mrp{
+    margin-top: 0.25rem;
+    font-weight: 800;
+    color : #ad5502;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.section1{
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,12 @@
+.button{
+    margin-top: 1rem;
+}
+
+.button button{
+    border-radius: 10px;
+    width: 60px;
+    background-color: rgb(76, 0, 76);
+    color: white;
+    margin-left: 4rem;
+    padding: 0.5rem;
+}
